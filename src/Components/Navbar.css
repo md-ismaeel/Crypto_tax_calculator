@@ -1,0 +1,29 @@
+@media screen and (max-width:320px) {
+    .lg-screen {
+        display: none !important;
+    }
+
+    .sm-devise {
+        display: flex !important;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:376px) {
+    .lg-screen {
+        display: none !important;
+    }
+
+    .sm-devise {
+        display: flex !important;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:426px) {
+    .lg-screen {
+        display: none !important;
+    }
+
+    .sm-devise {
+        display: flex !important;
+    }
+}

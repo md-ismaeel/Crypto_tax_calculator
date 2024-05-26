@@ -1,0 +1,173 @@
+@media screen and (max-width:320px) {
+
+    .header {
+        font-size: 20px !important;
+    }
+
+    .container {
+        width: 100% !important;
+        /* background-color: white !important; */
+    }
+
+    .first-para {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .second-para {
+        flex-direction: column;
+    }
+
+    .third-para {
+        flex-direction: column;
+    }
+
+    .form-group {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .long-term {
+        flex-direction: column;
+    }
+
+    .short-term {
+        flex-direction: column;
+    }
+
+    .resultant {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:376px) {
+    .header {
+        font-size: 20px !important;
+    }
+
+    .container {
+        width: 100% !important;
+        /* background-color: white !important; */
+    }
+
+    .first-para {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .second-para {
+        flex-direction: column;
+    }
+
+    .third-para {
+        flex-direction: column;
+    }
+
+    .form-group {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .long-term {
+        flex-direction: column;
+    }
+
+    .short-term {
+        flex-direction: column;
+    }
+
+    .resultant {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width:377px) and (max-width:426px) {
+    .header {
+        font-size: 20px !important;
+    }
+
+    .container {
+        width: 100% !important;
+        /* background-color: white !important; */
+    }
+
+    .first-para {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .second-para {
+        flex-direction: column;
+    }
+
+    .third-para {
+        flex-direction: column;
+    }
+
+    .form-group {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .long-term {
+        flex-direction: column;
+    }
+
+    .short-term {
+        flex-direction: column;
+    }
+
+    .resultant {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+@media screen and (min-width:427px) and (max-width:769px) {
+    .header {
+        font-size: 20px !important;
+    }
+
+    .container {
+        width: 100% !important;
+        /* background-color: white !important; */
+    }
+
+    .first-para {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .second-para {
+        flex-direction: column;
+    }
+
+    .third-para {
+        flex-direction: column;
+    }
+
+    .form-group {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .long-term {
+        flex-direction: column;
+    }
+
+    .short-term {
+        flex-direction: column;
+    }
+
+    .resultant {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

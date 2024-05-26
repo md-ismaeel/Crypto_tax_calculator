@@ -1,3 +1,12 @@
+.btn {
+    border: 1px solid blue;
+}
+
+.navUl li {
+    cursor: pointer;
+}
+
+
 @media screen and (max-width:320px) {
     .lg-screen {
         display: none !important;
@@ -19,6 +28,17 @@
 }
 
 @media screen and (min-width:376px) and (max-width:426px) {
+    .lg-screen {
+        display: none !important;
+    }
+
+    .sm-devise {
+        display: flex !important;
+    }
+}
+
+
+@media screen and (min-width:427px) and (max-width:769px) {
     .lg-screen {
         display: none !important;
     }

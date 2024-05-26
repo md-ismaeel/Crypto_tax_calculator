@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "../Components/Navbar.css"
 import logo from "../assets/logo.svg"
 import { IoMdMenu } from "react-icons/io";
+import { MdCancel } from "react-icons/md";
 
 export const Navbar = () => {
 
@@ -32,11 +33,11 @@ export const Navbar = () => {
                         <img src={logo} alt='logo' height={'100px'} width={"100px"} />
                     </div>
 
-                    <button onClick={() => setShow(prev => !prev)} className='relative text-2xl'><IoMdMenu /></button>
+                    <button onClick={() => setShow(prev => !prev)} className='relative text-2xl'>{show ? <MdCancel className='text-red-500' /> : <IoMdMenu />}</button>
                 </div>
 
                 {show && (
-                    <div className='absolute top-10 right-0 justify-center items-start gap-6 text-lg bg-white px-10 py-4'>
+                    <div className='absolute z-10 top-12 right-0 justify-center items-start gap-6 text-lg bg-white px-10 py-4 border-2'>
                         <ul className='navUl  flex flex-col justify-center items-start gap-7'>
                             <li>feature</li>
                             <li>exchanges</li>

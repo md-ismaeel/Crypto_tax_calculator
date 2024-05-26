@@ -1,0 +1,59 @@
+@media screen and (max-width:320px) {
+    .home {
+        padding: 0 !important;
+    }
+
+    .calc {
+        width: 100% !important;
+    }
+
+    .left-box {
+        width: 0% !important;
+        display: none;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:376px) {
+    .home {
+        padding: 0 !important;
+    }
+
+    .calc {
+        width: 100% !important;
+    }
+
+    .left-box {
+        width: 0% !important;
+        display: none;
+    }
+}
+
+@media screen and (min-width:377px) and (max-width:426px) {
+    .home {
+        padding: 0 !important;
+    }
+
+    .calc {
+        width: 100% !important;
+    }
+
+    .left-box {
+        width: 0% !important;
+        display: none;
+    }
+}
+
+@media screen and (min-width:427px) and (max-width:769px) {
+    .home {
+        padding: 0 !important;
+    }
+
+    .calc {
+        width: 100% !important;
+    }
+
+    .left-box {
+        width: 0% !important;
+        display: none;
+    }
+}
